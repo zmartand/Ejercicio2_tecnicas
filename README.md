@@ -1,5 +1,6 @@
 # Ejercicio2_tecnicas
 <h1 align="center"> El pseudocódigo </h1>
+
 ## Nota:
 
 Mi repositorio es: https://github.com/zmartand/Ejercicio2_tecnicas.git
