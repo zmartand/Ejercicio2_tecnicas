@@ -1,5 +1,5 @@
 # Ejercicio2_tecnicas
-<h1 align="center"> El pseudocódigo </h1>
+<h1 align="center"> EL PSEUDOCÓDIGO </h1>
 
 ## Nota:
 
