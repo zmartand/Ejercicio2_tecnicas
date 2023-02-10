@@ -67,7 +67,9 @@ ambos valores toman el valor 2:
 <image src="valor1.png" width="200" alt="Valor 1">
 <image src="valor2.png"  width="200" alt="Valor 2">
 <image src="valor1-valor2.png"  width="200" alt="resultados valor 1 y valor 2">  
-***  
+   
+***
+   
 ## 4. Velocidad media
 Escriba un algoritmo que calcule la velocidad media de desplazamiento del usuario.  
 A continuación, se muestra un ejemplo de posibles visualizaciones y entradas durante una ejecución del algoritmo (los valores introducidos por el usuario están escritos en negrita y cursiva):  
