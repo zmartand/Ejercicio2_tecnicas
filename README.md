@@ -88,6 +88,7 @@ Introduzca el tiempo del recorrido (min).
 Se ha desplazado a una velocidad de 92,5 km/h.
    
    **SOLUCIÓN:**
+   ***
   public static void main(String[] args) {
         double distancia, tiempo, velocidad;
         distancia = Double.parseDouble(JOptionPane.showInputDialog("Introduzca la distancia recorrida (km)."));
