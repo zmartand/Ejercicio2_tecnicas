@@ -23,4 +23,7 @@ public class Ejercicio3 {
         JOptionPane.showMessageDialog(null, "valor1 = " + valor1 + "; valor2 = " + valor2);
     }
 }
+//Al valor 1 se le asigna el valor 2, por lo que el valor 2 es igual al valor 1 que a su vez es el valor 2. En conclusión ambos valores toman el valor 2.
+
+
 
