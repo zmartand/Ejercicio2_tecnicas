@@ -20,6 +20,8 @@ Inicio
 Fin 
 ***
 **SOLUCIÓN:**
+___
+---
 
 a = 3  
 a = 3 y b = 8  
