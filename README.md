@@ -14,3 +14,4 @@ Inicio
    a<-7  
    escribir("a = " & a & " y b = " & b)  
 Fin 
+
