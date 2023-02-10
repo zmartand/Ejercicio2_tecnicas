@@ -21,7 +21,7 @@ Fin
 ***
 SOLUCIÓN: 
 
-a = 3\n
+a = 3  
 a = 3 y b = 8
 a = 7 y b = 8
 
