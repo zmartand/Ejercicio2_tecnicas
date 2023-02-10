@@ -12,12 +12,20 @@ Algo ValoresDeLasVariables
 variable a, b: entero  
 Inicio  
    a <- 3  
-   escribir("a = " & a)  
+   escribir("a = " & a)  //En esta línea de código a=3
    b<-a+5  
-   escribir("a = " & a & " y b = " & b)  
+   escribir("a = " & a & " y b = " & b)  //En esta línea de código a=3 y b=8
    a<-7  
-   escribir("a = " & a & " y b = " & b)  
+   escribir("a = " & a & " y b = " & b)  //En esta línea de código a=7 y b=8
 Fin 
+
+SOLUCIÓN: 
+
+a = 3
+a = 3 y b = 8
+a = 7 y b = 8
+
+
 ## 2. ¿Qué se muestra?
 ¿Qué veremos al ejecutar el siguiente algoritmo?
 
@@ -34,6 +42,13 @@ Inicio
    escribir(valor1 & " # " & CST)  
 Fin 
 
+SOLUCIÓN: 
+
+Se muestra lo siguiente:
+
+Test , valor2 = 8
+4 # 49.78
+
 ## 3. ¿Qué hace?
 ¿Qué hace este algoritmo?
 
@@ -48,6 +63,13 @@ Inicio
    valor2 <- valor1  
    escribir("valor1 = " & valor1 & "; valor2 = " & valor2)  
 Fin 
+
+SOLUCIÓN:
+
+Al valor 1 se le asigna el valor 2, por lo que el valor 2 es igual al valor 1 que a su vez es el valor 2. En conclusión
+ambos valores toman el valor 2
+
+
 
 ## 4. Velocidad media
 Escriba un algoritmo que calcule la velocidad media de desplazamiento del usuario.
