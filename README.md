@@ -13,14 +13,12 @@ variable a, b: entero
 Inicio  
    a <- 3  
    escribir("a = " & a)  //En esta línea de código a=3
-   
    b<-a+5  
    escribir("a = " & a & " y b = " & b)  //En esta línea de código a=3 y b=8
-   
    a<-7  
    escribir("a = " & a & " y b = " & b)  //En esta línea de código a=7 y b=8
 Fin 
-
+***
 SOLUCIÓN: 
 
 a = 3
@@ -43,7 +41,7 @@ Inicio
    escribir(cadena1 & " , valor2 = " & valor2)  
    escribir(valor1 & " # " & CST)  
 Fin 
-
+***
 SOLUCIÓN: 
 
 Se muestra lo siguiente:
@@ -65,7 +63,7 @@ Inicio
    valor2 <- valor1  
    escribir("valor1 = " & valor1 & "; valor2 = " & valor2)  
 Fin 
-
+***
 SOLUCIÓN:
 
 Al valor 1 se le asigna el valor 2, por lo que el valor 2 es igual al valor 1 que a su vez es el valor 2. En conclusión
@@ -89,7 +87,7 @@ Se ha desplazado a una velocidad de 92,5 km/h.
    
    **SOLUCIÓN:**
    ***
-  public static void main(String[] args) {
+  'public static void main(String[] args) {
         double distancia, tiempo, velocidad;
         distancia = Double.parseDouble(JOptionPane.showInputDialog("Introduzca la distancia recorrida (km)."));
         tiempo = Double.parseDouble(JOptionPane.showInputDialog("Introduzca el tiempo del recorrido (min)."));
@@ -97,7 +95,7 @@ Se ha desplazado a una velocidad de 92,5 km/h.
         JOptionPane.showMessageDialog(null, "Se ha desplazado a una velocidad de " + velocidad + " km/h.");
     }
 
-}
+}'
    
 <image src="distanciaRecorrida.png" width="200" alt="Distancia Recorrida">
 <image src="tiempo.png"  width="200" alt="Tiempo">
