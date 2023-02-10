@@ -12,24 +12,22 @@ Algo ValoresDeLasVariables
 variable a, b: entero  
 Inicio  
    a <- 3  
-   escribir("a = " & a)  //En esta línea de código a=3
-   b<-a+5  
-   escribir("a = " & a & " y b = " & b)  //En esta línea de código a=3 y b=8
-   a<-7  
-   escribir("a = " & a & " y b = " & b)  //En esta línea de código a=7 y b=8
+   escribir("a = " & a)  //En esta línea de código a=3  
+   b<-a+5   
+   escribir("a = " & a & " y b = " & b)  //En esta línea de código a=3 y b=8  
+   a<-7    
+   escribir("a = " & a & " y b = " & b)  //En esta línea de código a=7 y b=8  
 Fin 
 ***
 SOLUCIÓN: 
 
 a = 3  
-a = 3 y b = 8
-a = 7 y b = 8
-
-
+a = 3 y b = 8  
+a = 7 y b = 8  
 ## 2. ¿Qué se muestra?
 ¿Qué veremos al ejecutar el siguiente algoritmo?
 
-Algo QueVeremos 
+Algo QueVeremos   
 #¿Qué veremos al ejecutar el siguiente algoritmo?  
 Variable valor1, valor2: entero  
 Variable cadena1: texto  
@@ -40,18 +38,15 @@ Inicio
    cadena1 <- "Test"  
    escribir(cadena1 & " , valor2 = " & valor2)  
    escribir(valor1 & " # " & CST)  
-Fin 
+Fin  
 ***
 SOLUCIÓN: 
 
-Se muestra lo siguiente:
-
-Test , valor2 = 8
-4 # 49.78
-
+Se muestra lo siguiente:  
+Test , valor2 = 8  
+4 # 49.78  
 ## 3. ¿Qué hace?
-¿Qué hace este algoritmo?
-
+¿Qué hace este algoritmo?  
 Algo QueHace  
 #¿Qué hace este algoritmo?  
 Variable valor1, valor2: real  
@@ -62,12 +57,11 @@ Inicio
    valor1 <- valor2  
    valor2 <- valor1  
    escribir("valor1 = " & valor1 & "; valor2 = " & valor2)  
-Fin 
+Fin  
 ***
-SOLUCIÓN:
-
+SOLUCIÓN:  
 Al valor 1 se le asigna el valor 2, por lo que el valor 2 es igual al valor 1 que a su vez es el valor 2. En conclusión
-ambos valores toman el valor 2:
+ambos valores toman el valor 2:  
 
 <image src="valor1.png" width="200" alt="Valor 1">
 <image src="valor2.png"  width="200" alt="Valor 2">
@@ -75,18 +69,15 @@ ambos valores toman el valor 2:
 
 
 ## 4. Velocidad media
-Escriba un algoritmo que calcule la velocidad media de desplazamiento del usuario.
-
-A continuación, se muestra un ejemplo de posibles visualizaciones y entradas durante una ejecución del algoritmo (los valores introducidos por el usuario están escritos en negrita y cursiva):
-
-Introduzca la distancia recorrida (km).
-370
-Introduzca el tiempo del recorrido (min).
-240
-Se ha desplazado a una velocidad de 92,5 km/h.
+Escriba un algoritmo que calcule la velocidad media de desplazamiento del usuario.  
+A continuación, se muestra un ejemplo de posibles visualizaciones y entradas durante una ejecución del algoritmo (los valores introducidos por el usuario están escritos en negrita y cursiva):  
+Introduzca la distancia recorrida (km).  
+370  
+Introduzca el tiempo del recorrido (min).  
+240  
+Se ha desplazado a una velocidad de 92,5 km/h.  
    ***
    **SOLUCIÓN:**
-   
    ~~~
    public static void main(String[] args) {
         double distancia, tiempo, velocidad;
@@ -101,4 +92,4 @@ Se ha desplazado a una velocidad de 92,5 km/h.
    
 <image src="distanciaRecorrida.png" width="200" alt="Distancia Recorrida">
 <image src="tiempo.png"  width="200" alt="Tiempo">
-<image src="velocidad.png"  width="200" alt="Velocidad">
+<image src="velocidad.png"  width="250" alt="Velocidad">
