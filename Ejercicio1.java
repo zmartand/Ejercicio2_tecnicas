@@ -20,3 +20,7 @@ public class Ejercicio1 {
     System.out.println("a = " + a + " y b = " + b); //En esta línea de código a vale 7 y b vale 8
     } 
     }
+/*Solución: 
+a = 3
+a = 3 y b = 8
+a = 7 y b = 8*/
