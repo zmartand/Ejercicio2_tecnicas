@@ -84,6 +84,6 @@ Introduzca la distancia recorrida (km).
 Introduzca el tiempo del recorrido (min).
 240
 Se ha desplazado a una velocidad de 92,5 km/h.
-
-
-[valor1]: https://github.com/zmartand/Ejercicio2_tecnicas/blob/main/valor1.png
+<image src="distanciaRecorrida.png" width="200" alt="Distancia Recorrida">
+<image src="tiempo.png"  width="200" alt="Tiempo">
+<image src="velocidad.png"  width="200" alt="Velocidad">
