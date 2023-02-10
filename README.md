@@ -13,8 +13,10 @@ variable a, b: entero
 Inicio  
    a <- 3  
    escribir("a = " & a)  //En esta línea de código a=3
+   
    b<-a+5  
    escribir("a = " & a & " y b = " & b)  //En esta línea de código a=3 y b=8
+   
    a<-7  
    escribir("a = " & a & " y b = " & b)  //En esta línea de código a=7 y b=8
 Fin 
@@ -84,6 +86,18 @@ Introduzca la distancia recorrida (km).
 Introduzca el tiempo del recorrido (min).
 240
 Se ha desplazado a una velocidad de 92,5 km/h.
+   
+   **SOLUCIÓN:**
+  public static void main(String[] args) {
+        double distancia, tiempo, velocidad;
+        distancia = Double.parseDouble(JOptionPane.showInputDialog("Introduzca la distancia recorrida (km)."));
+        tiempo = Double.parseDouble(JOptionPane.showInputDialog("Introduzca el tiempo del recorrido (min)."));
+        velocidad = distancia / tiempo;
+        JOptionPane.showMessageDialog(null, "Se ha desplazado a una velocidad de " + velocidad + " km/h.");
+    }
+
+}
+   
 <image src="distanciaRecorrida.png" width="200" alt="Distancia Recorrida">
 <image src="tiempo.png"  width="200" alt="Tiempo">
 <image src="velocidad.png"  width="200" alt="Velocidad">
