@@ -66,7 +66,7 @@ ambos valores toman el valor 2:
 
 <image src="valor1.png" width="200" alt="Valor 1">
 <image src="valor2.png"  width="200" alt="Valor 2">
-<image src="valor1-valor2.png"  width="200" alt="resultados valor 1 y valor 2">
+<image src="valor1-valor2.png"  width="200" alt="resultados valor 1 y valor 2">  
 ***  
 ## 4. Velocidad media
 Escriba un algoritmo que calcule la velocidad media de desplazamiento del usuario.  
@@ -91,5 +91,4 @@ Se ha desplazado a una velocidad de 92,5 km/h.
    
 <image src="distanciaRecorrida.png" width="200" alt="Distancia Recorrida">
 <image src="tiempo.png"  width="200" alt="Tiempo">
-<image src="velocidad.png"  width="300" alt="Velocidad">  
-***
+<image src="velocidad.png"  width="300" alt="Velocidad">
