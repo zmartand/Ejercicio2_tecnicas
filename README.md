@@ -67,7 +67,9 @@ Fin
 SOLUCIÓN:
 
 Al valor 1 se le asigna el valor 2, por lo que el valor 2 es igual al valor 1 que a su vez es el valor 2. En conclusión
-ambos valores toman el valor 2
+ambos valores toman el valor 2:
+
+<image src="valor1.png" alt="Descripción de la imagen">
 
 
 
@@ -81,3 +83,6 @@ Introduzca la distancia recorrida (km).
 Introduzca el tiempo del recorrido (min).
 240
 Se ha desplazado a una velocidad de 92,5 km/h.
+
+
+[valor1]: https://github.com/zmartand/Ejercicio2_tecnicas/blob/main/valor1.png
