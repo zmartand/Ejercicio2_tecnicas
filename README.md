@@ -69,8 +69,9 @@ SOLUCIÓN:
 Al valor 1 se le asigna el valor 2, por lo que el valor 2 es igual al valor 1 que a su vez es el valor 2. En conclusión
 ambos valores toman el valor 2:
 
-<image src="valor1.png" alt="Descripción de la imagen">
-
+<image src="valor1.png" width="200" alt="Valor 1">
+<image src="valor2.png"  width="200" alt="Valor 2">
+<image src="valor1-valor2.png"  width="200" alt="resultados valor 1 y valor 2">
 
 
 ## 4. Velocidad media
