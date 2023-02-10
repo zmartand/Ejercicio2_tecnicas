@@ -19,7 +19,7 @@ Inicio
    escribir("a = " & a & " y b = " & b)  //En esta línea de código a=7 y b=8  
 Fin 
 ***
-SOLUCIÓN: 
+**SOLUCIÓN:**
 
 a = 3  
 a = 3 y b = 8  
@@ -40,7 +40,7 @@ Inicio
    escribir(valor1 & " # " & CST)  
 Fin  
 ***
-SOLUCIÓN: 
+**SOLUCIÓN:**
 
 Se muestra lo siguiente:  
 Test , valor2 = 8  
@@ -59,7 +59,7 @@ Inicio
    escribir("valor1 = " & valor1 & "; valor2 = " & valor2)  
 Fin  
 ***
-SOLUCIÓN:  
+**SOLUCIÓN:**
 Al valor 1 se le asigna el valor 2, por lo que el valor 2 es igual al valor 1 que a su vez es el valor 2. En conclusión
 ambos valores toman el valor 2:  
 
@@ -91,4 +91,4 @@ Se ha desplazado a una velocidad de 92,5 km/h.
    
 <image src="distanciaRecorrida.png" width="200" alt="Distancia Recorrida">
 <image src="tiempo.png"  width="200" alt="Tiempo">
-<image src="velocidad.png"  width="250" alt="Velocidad">
+<image src="velocidad.png"  width="300" alt="Velocidad">
