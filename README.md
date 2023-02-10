@@ -84,10 +84,11 @@ Introduzca la distancia recorrida (km).
 Introduzca el tiempo del recorrido (min).
 240
 Se ha desplazado a una velocidad de 92,5 km/h.
-   
-   **SOLUCIÓN:**
    ***
-  'public static void main(String[] args) {
+   **SOLUCIÓN:**
+   
+   ~~~
+   public static void main(String[] args) {
         double distancia, tiempo, velocidad;
         distancia = Double.parseDouble(JOptionPane.showInputDialog("Introduzca la distancia recorrida (km)."));
         tiempo = Double.parseDouble(JOptionPane.showInputDialog("Introduzca el tiempo del recorrido (min)."));
@@ -95,7 +96,8 @@ Se ha desplazado a una velocidad de 92,5 km/h.
         JOptionPane.showMessageDialog(null, "Se ha desplazado a una velocidad de " + velocidad + " km/h.");
     }
 
-}'
+}
+   ~~~
    
 <image src="distanciaRecorrida.png" width="200" alt="Distancia Recorrida">
 <image src="tiempo.png"  width="200" alt="Tiempo">
